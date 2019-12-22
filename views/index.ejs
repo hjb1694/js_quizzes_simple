@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>JavaScript Quizzes</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__one">
+            <h1 class="header__logo">JavaScript Quizzes</h1>
+            <a class="header__navtoggle"><i class="fa fa-bars"></i></a>
+        </div>
+        <div class="header__two">
+            <nav class="nav">
+                <a class="nav__link" href="#">Login</a>
+                <a class="nav__link" href="#">Register</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <h2 class="hero__header">Test Yourself.</h2>
+            <p class="hero__subtext">Take these quizzes for free.</p>
+            <a class="hero__btn" href="#">Take the challenge &rarr;</a>
+        </div>
+    </section>
+
+    <script>
+        document.querySelector('.header__navtoggle').addEventListener('click', () => {
+
+            document.querySelector('.header__two').classList.toggle('show');
+
+        });
+    
+    </script>
+</body>
+</html>
