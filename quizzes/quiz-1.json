@@ -1,0 +1,144 @@
+[
+    {
+        "questionNo" : 1,
+        "Question" : "<p>JavaScript was originally invented by which person?</p>",
+        "Answers" : {
+            "A" : "Ken Thompson", 
+            "B" : "Brenden Eich", 
+            "C" : "Dennis Richie", 
+            "D" : "Rasmus Lerdorf", 
+            "E" : "None of the Above"
+        }, 
+        "CorrectAnswer" : "B"
+    }, 
+    {
+        "questionNo" : 2,
+        "Question" : "<p>Which of the following is NOT true about JavaScript?</p>",
+        "Answers" : {
+            "A" : "JavaScript is a dynamic language", 
+            "B" : "JavaScript is versitle and cross-platform", 
+            "C" : "JavaScript is a statically-typed language", 
+            "D" : "JavaScript is one of three core technologies of web development, alongside HTML and CSS", 
+            "E" : "All of these are true about JavaScript"
+        }, 
+        "CorrectAnswer" : "C"
+    }, 
+    {
+        "questionNo" : 3,
+        "Question" : "<p>In what year was JavaScript created?</p>",
+        "Answers" : {
+            "A" : "1990", 
+            "B" : "1991", 
+            "C" : "1993", 
+            "D" : "1995", 
+            "E" : "1996"
+        }, 
+        "CorrectAnswer" : "D"
+    }, 
+    {
+        "questionNo" : 4,
+        "Question" : "<p>True or False: JavaScript is case-sensitive.</p>",
+        "Answers" : {
+            "A" : "True", 
+            "B" : "False"
+        }, 
+        "CorrectAnswer" : "A"
+    }, 
+    {
+        "questionNo" : 5,
+        "Question" : "<p>Which of the following is an invalid identifier?</p>",
+        "Answers" : {
+            "A" : "$variable", 
+            "B" : "_variable", 
+            "C" : "1variable", 
+            "D" : "myVariable", 
+            "E" : "All of these are valid identifiers"
+        }, 
+        "CorrectAnswer" : "C"
+    }, 
+    {
+        "questionNo" : 6,
+        "Question" : "<p>True or False: Primitive types are immutable.</p>",
+        "Answers" : {
+            "A" : "True", 
+            "B" : "False"
+        }, 
+        "CorrectAnswer" : "A"
+    }, 
+    {
+        "questionNo" : 7,
+        "Question" : "<p>Which of the following is NOT a primitive type in JavaScript?</p>",
+        "Answers" : {
+            "A" : "string", 
+            "B" : "function", 
+            "C" : "null", 
+            "D" : "undefined", 
+            "E" : "All of these are primitive types"
+        }, 
+        "CorrectAnswer" : "B"
+    },
+    {
+        "questionNo" : 8,
+        "Question" : "<p>Numerically, null is coerced to</p>",
+        "Answers" : {
+            "A" : 0, 
+            "B" : "NaN", 
+            "C" : "A SyntaxError is thrown" 
+        }, 
+        "CorrectAnswer" : "A"
+    }, 
+    {
+        "questionNo" : 9,
+        "Question" : "<p>True or False: Arrays are immutable by default.</p>",
+        "Answers" : {
+            "A" : "True", 
+            "B" : "False"
+        }, 
+        "CorrectAnswer" : "B"
+    }, 
+    {
+        "questionNo" : 10,
+        "Question" : "<p>Which of the following is not a built-in method on Array.prototype?</p>",
+        "Answers" : {
+            "A" : "fill()", 
+            "B" : "reduceRight()", 
+            "C" : "splice()", 
+            "D" : "append()", 
+            "E" : "All of these are build in array methods" 
+        }, 
+        "CorrectAnswer" : "D"
+    },
+    {
+        "questionNo" : 10,
+        "Question" : "<p>Which of the following is true about JavaScript?</p>",
+        "Answers" : {
+            "A" : "JavaScript is a multi-paradigm scripting language", 
+            "B" : "JavaScript is prototype-based", 
+            "C" : "JavaScript uses first-class functions", 
+            "D" : "JavaScript can be used outside the browser with NodeJS", 
+            "E" : "All of these are true about JavaScript" 
+        }, 
+        "CorrectAnswer" : "E"
+    }, 
+    {
+        "questionNo" : 11,
+        "Question" : "<p>True or False: Functions can be assigned to variables, accept functions as arguments, and return other functions.</p>",
+        "Answers" : {
+            "A" : "True", 
+            "B" : "False"
+        }, 
+        "CorrectAnswer" : "A"
+    }, 
+    {
+        "questionNo" : 12,
+        "Question" : "<p>Which of the following array methods deletes, inserts, or replaces elements in an array?</p>",
+        "Answers" : {
+            "A" : "slice()", 
+            "B" : "reduce()", 
+            "C" : "splice()", 
+            "D" : "join()", 
+            "E" : "every()" 
+        }, 
+        "CorrectAnswer" : "C"
+    }
+]
